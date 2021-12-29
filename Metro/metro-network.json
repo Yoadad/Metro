@@ -1,0 +1,52 @@
+{
+  "train": { "color": "None" },
+  "stations": [
+    {
+      "name": "A",
+      "color": "None",
+      "type": "Initial",
+      "nextStations": [ "B" ]
+    },
+    {
+      "name": "B",
+      "color": "None",
+      "nextStations": [ "C" ]
+    },
+    {
+      "name": "C",
+      "color": "None",
+      "nextStations": [ "D", "G" ]
+    },
+    {
+      "name": "D",
+      "color": "None",
+      "nextStations": [ "E" ]
+    },
+    {
+      "name": "E",
+      "color": "None",
+      "nextStations": [ "F" ]
+    },
+    {
+      "name": "F",
+      "color": "None",
+      "type": "Final",
+      "nextStations": []
+    },
+    {
+      "name": "G",
+      "color": "Green",
+      "nextStations": [ "H" ]
+    },
+    {
+      "name": "H",
+      "color": "Red",
+      "nextStations": [ "I" ]
+    },
+    {
+      "name": "I",
+      "color": "Green",
+      "nextStations": [ "F" ]
+    }
+  ]
+}

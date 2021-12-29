@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Metro": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Projects\\Metro\\Metro\\metro-network.json"
+    }
+  }
+}
